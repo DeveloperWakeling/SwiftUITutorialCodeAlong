@@ -13,6 +13,8 @@
 		33833FB124610905000FCAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33833FB024610905000FCAC2 /* Assets.xcassets */; };
 		33833FB424610905000FCAC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33833FB324610905000FCAC2 /* Preview Assets.xcassets */; };
 		33833FB724610905000FCAC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33833FB524610905000FCAC2 /* LaunchScreen.storyboard */; };
+		33833FC124610CBA000FCAC2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33833FC024610CBA000FCAC2 /* CircleImage.swift */; };
+		33833FC324610E39000FCAC2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33833FC224610E39000FCAC2 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		33833FB324610905000FCAC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33833FB624610905000FCAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33833FB824610905000FCAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33833FC024610CBA000FCAC2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		33833FC224610E39000FCAC2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		33833F9E24610902000FCAC2 = {
 			isa = PBXGroup;
 			children = (
+				33833FC024610CBA000FCAC2 /* CircleImage.swift */,
+				33833FC224610E39000FCAC2 /* MapView.swift */,
 				33833FA924610902000FCAC2 /* SwiftUIIntroduction */,
 				33833FA824610902000FCAC2 /* Products */,
 			);
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				33833FAB24610902000FCAC2 /* AppDelegate.swift in Sources */,
+				33833FC124610CBA000FCAC2 /* CircleImage.swift in Sources */,
+				33833FC324610E39000FCAC2 /* MapView.swift in Sources */,
 				33833FAD24610902000FCAC2 /* SceneDelegate.swift in Sources */,
 				33833FAF24610902000FCAC2 /* ContentView.swift in Sources */,
 			);
